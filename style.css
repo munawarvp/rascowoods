@@ -27,15 +27,15 @@ CSS STRUCTURE:
   --accent-color: #0d0d0d;
   --bs-gray-100: #f3f3f3;
   --bs-gray-200: #e7e5e2;
-  --bs-primary: #787d62;
+  --bs-primary: #1e8c5d;
   --bs-secondary: #F6F5F2;
   --bs-primary-rgb: 120, 125, 98;
-  --bs-body-bg-rgb: 246, 245, 242;
+  --bs-body-bg-rgb: 242, 249, 241;
   --bs-light: #fff;
   --bs-dark: #000;
   --navbar-color-color: #131814;
   --swiper-theme-color: #787d62 !important;
-  --swiper-pagination-color: #787d62 !important;
+  --swiper-pagination-color: #174344 !important;
 
 }
 

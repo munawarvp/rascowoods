@@ -795,7 +795,7 @@ h5 {
 }
 
 #header-nav .offcanvas-end {
-  width: 500px;
+  width: 350px;
 }
 
 .offcanvas.show .nav-item a.nav-link {
@@ -1082,4 +1082,25 @@ h5 {
 .pagination .page-item a.page-link:focus {
   background-color: var(--bs-primary);
   color: var(--bs-light);
+}
+
+.about-us-img {
+  width: 760px;
+  height: 680px;
+}
+
+.about-us-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.woodenflooring-img {
+  width: 760px;
+  height: 680px;
+}
+
+.woodenflooring-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }

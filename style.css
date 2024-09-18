@@ -1129,3 +1129,20 @@ h5 {
   width: 100%;
   object-fit: cover;
 }
+
+.segments {
+  height: 500px;
+  width: 100%;
+}
+
+.segments img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .segments {
+    height: 400px;
+  }
+}

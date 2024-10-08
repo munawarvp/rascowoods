@@ -519,9 +519,16 @@ h5 {
 
 .image-zoom-effect .image-holder {
   width: 100%;
-  height: auto;
+  height: 370px;
   overflow: hidden;
   transform: scale(1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -826,7 +833,8 @@ h5 {
 /*----------------------------------------------*/
 /*------------Swiper Arrow -----------*/
 .banner-content p {
-  width: 50%;
+  font-size: medium;
+  width: 35%;
 }
 
 #billboard .swiper-pagination {
@@ -1145,4 +1153,20 @@ h5 {
   .segments {
     height: 400px;
   }
+}
+.banner-item {
+  background-color: red;
+  background-image: url(assets/banner-image-3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.banner-content {
+  position: absolute; /* Add this line */
+  bottom: 35px; /* Adjust as needed */
+  left: 55px; /* Adjust as needed */
+  color: #000; /* Optional: set text color */
+  color: white;
 }
